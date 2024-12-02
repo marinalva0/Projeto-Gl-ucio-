@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProjetoP2-Contato</title>
+    <link rel="stylesheet" href="Projeto.P2.css">
+</head>
+
+<body>
+    <div class="page">
+        <header>
+            <div id="title">
+                <img src="images/barco1.png" alt="Icone do barco" />
+                <div class="headtitle">
+                    <h1>LUXO</h1>
+                    <h2>Aluguel de Iates</h2>
+                </div>
+            </div>
+            <nav>
+                <ul class="navmenu">
+
+                    <li><a href="index.html">Pagina Pricipal</a></li>
+                    <li><a href="Aluguel.html">Aluguel de Iates</a></li>
+                    <li><a href="destino.html">Destinos</a></li>
+                    <li><a href="tripulacao.html">Tripulacao</a></li>
+                    <li><a href="contato.html" class="accent">Contato</a></li>
+                    <li><a href="Admin.htmlS">Admin</a></li>
+                    <li><a href="Mensagem.html">Mensagem</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="pagtitle">
+                <div class="bgtitle">
+                    <h2>Entre em Contato e Faça o seu Cadastro</h2>
+                </div>
+            </div>
+            <form>
+                <div class="entry">
+                    <label for="nome">nome</label>
+                    <input type="text" id="nome" placeholder="Nome" />
+                </div>
+                <div class="entry">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="E-mail" onchange="validateFields()" />
+                    <div></div>
+                    <label for="senha">Senha</label>
+                    <input type="Senha" id="recover-password-button" placeholder="senha">
+                </div>
+                <div>
+                    <label for="recupera Senha">Recupera Senha</label>
+                    <input type="recupera senha" id="recupera sena" placeholder="recupera Senha"/>
+                </div>
+                
+                <div class="button">
+                    <button class="button" onclick="login()">Entra</button>
+                   
+                </div>
+               <div class="enty">
+        <label for="msg"> Enviar Mensagem</label>
+        <textarea cols="50" rows="7" id="mensaguem"></textarea>
+        <button>Enviar</button> 
+    </div>
+    </form>
+    </div>
+    </main>
+    </div>
+    <footer>
+        <p>2024 por Luxo Aluguel de Iates</p>
+    </footer>
+    <script src="ProjetoP2.js"></script>
+    <script src="Login.js"></script>
+</body>
+
+</html>
